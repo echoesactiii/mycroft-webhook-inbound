@@ -16,7 +16,7 @@ It listens on `/api/v1.0/announce` for a JSON payload in the format:
 }
 ```
 
-It will verbally announce whatever the `announcement` text in the payload is.
+It will verbally announce whatever the `announcement` text in the payload is. Honestly, though, I recommend installing https://github.com/ketudb/mycroft-announce and using the `say-to` endpoint to call that. It's a much nicer experience.
 
 ### say-to
 
